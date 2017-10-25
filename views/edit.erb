@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-12 text-center" id="head">
+    <h1 id="title">EDITA TU TAREA</h1>
+  </div>
+
+  <div class="col-12">
+    <form class="form-inline" method="post"> 
+      <div class="input-group" id="input">
+      	<input type="hidden" name="_method" value="put">
+        <input class="form-control" id="input_text" type="text" name="edit_task" value="<%= @task["title"] %>">
+        <span class="input-group-btn">
+          <button class="btn btn-info btn" type="submit"><strong id="add">Editar</strong></button>
+        </span>
+      </div>    
+    </form>
+  </div>
+</div>
