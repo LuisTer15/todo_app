@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-12 text-center" id="head">
+    <h1 id="title">ELIMINAR TU TAREA</h1>
+  </div>
+
+  <div class="col-12">
+    <form class="form-group" method="post"> 
+      <input type="hidden" name="_method" value="delete">
+       <h4>¿Estas seguro que deseas eliminar la tarea?</h4>
+       <p><%= @task_delete %></p>
+       <span class="form-group-btn">
+         <button class="btn btn-danger btn" type="submit"><strong id="add">Si</strong></button>
+       </span>
+    </form>
+    <a href="/"><button class="btn btn-secondary btn"><strong id="add">Regresar</strong></button></a>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-12 text-center" id="head">
+    <h1 id="title">COMPLETAR TU TAREA</h1>
+  </div>
+
+  <div class="col-12">
+    <form class="form-group" method="post"> 
+      <input type="hidden" name="_method" value="patch">
+       <h4>¿Estas seguro que deseas completar la tarea?</h4>
+       <p><%= @task_complete %></p>
+       <span class="form-group-btn">
+         <button class="btn btn-success btn" type="submit"><strong id="add">Completar</strong></button>
+       </span>  
+    </form>
+  </div>
+</div>
